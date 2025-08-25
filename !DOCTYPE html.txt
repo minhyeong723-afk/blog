@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>My 싸이월드 감성 블로그</title>
+  <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Do Hyeon', sans-serif;
+      background-color: #e6f2ff;
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    .container {
+      display: flex;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .sidebar {
+      width: 250px;
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-right: 2px dashed #ccc;
+    }
+    .main {
+      flex: 1;
+      padding: 20px;
+    }
+    .profile-img {
+      width: 100px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .post {
+      background-color: white;
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #888;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    🎵 오늘의 BGM: 클래지콰이 - She Is | 방문자 1245명
+  </header>
+  <div class="container">
+    <div class="sidebar">
+      <img src="https://via.placeholder.com/100x100?text=미니미" class="profile-img" alt="미니미" />
+      <h3>안녕! 싸이 감성 블로그야 :)</h3>
+      <p>📮 <a href="#">쪽지 쓰기</a></p>
+      <p>💬 <a href="#">방명록</a></p>
+      <p>🌐 <a href="#">일촌 맺기</a></p>
+    </div>
+    <div class="main">
+      <div class="post">
+        <h2>📓 오늘의 일기</h2>
+        <p>
+          비가 와서 그런지 괜히 감성적인 하루였다.<br />
+          옛날 싸이월드 배경음악을 들으니 추억이 새록새록 ☔️
+        </p>
+      </div>
+      <div class="post">
+        <h2>📸 추억 사진첩</h2>
+        <img src="https://via.placeholder.com/300x200?text=폴라로이드" alt="추억 사진" />
+        <p>#2007년_여름방학 #부산여행</p>
+      </div>
+    </div>
+  </div>
+  <footer>ⓒ 2025 싸이월드 감성 블로그 by 당신의 이름</footer>
+</body>
+</html>
